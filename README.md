@@ -7,6 +7,11 @@ This program was written to copy files from multiple directories to a single des
 I was not able to find a free, fast option to accomplish this and so set out to write my own solution.
 
 The file copy is done using the copy2 function from the shutil library, it works quite well and seems to be able to copy at a fairly high rate.
+For the gui, pyside is used along with zeromq for commmunication between threads.
+
+##Dependancies
+- pyside>=1.2.1
+- zmq
 
 ##Usage
 
