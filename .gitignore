@@ -1,0 +1,6 @@
+*.pyc
+build
+*.7z
+*.bak
+*.nja
+*.bat
