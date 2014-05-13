@@ -267,7 +267,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def copy_complete(self, filecount, filesize, runtime, run_seconds):
         self.progress.setValue(self.progress.maximum())
-        transfer_rate = (float(filesize) * 1024) / float(run_seconds)
+        transfer_rate = round((float(filesize) * 1024) / float(run_seconds), 3)
+        filesize = round(float(filesize), 3)
         QMessageBox.information(self, "File Copy Complete",
             """Your file copy has been successfully completed.\n
             Files processed:\t%s\n
