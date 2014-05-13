@@ -31,3 +31,7 @@ If there is not enough space, a dialog will be displayed indicating the amount n
 When the copy operation is under-way a progress is displayed that shows the current progress of the operation.
 
 When complete a dialog showing a summary of the operation is displayed.
+
+##Screenshot
+
+![] (./screenshots/Main.png)
